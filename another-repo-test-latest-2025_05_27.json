@@ -1,0 +1,4192 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-05-27T04:17:13Z",
+    "component": {
+      "bom-ref": "UXVheSBUZXN0aW5nL21kc3NjX2RlbW8vZGVtb19kbHAtZGF0YXNldA==:v1",
+      "type": "application",
+      "name": "demo_dlp-dataset",
+      "version": "v1"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:apk/zlib@1.2.8-r2",
+      "type": "library",
+      "name": "zlib",
+      "version": "1.2.8-r2",
+      "purl": "pkg:apk/zlib@1.2.8-r2",
+      "licenses": [
+        {
+          "license": {
+            "name": "Zlib"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/libcrypto1.0@1.0.2j-r0",
+      "type": "library",
+      "name": "libcrypto1.0",
+      "version": "1.0.2j-r0",
+      "purl": "pkg:apk/libcrypto1.0@1.0.2j-r0",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:apk/libssl1.0@1.0.2j-r0",
+      "type": "library",
+      "name": "libssl1.0",
+      "version": "1.0.2j-r0",
+      "purl": "pkg:apk/libssl1.0@1.0.2j-r0",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:apk/busybox@1.24.2-r11",
+      "type": "library",
+      "name": "busybox",
+      "version": "1.24.2-r11",
+      "purl": "pkg:apk/busybox@1.24.2-r11",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine-baselayout@3.0.3-r0",
+      "type": "library",
+      "name": "alpine-baselayout",
+      "version": "3.0.3-r0",
+      "purl": "pkg:apk/alpine-baselayout@3.0.3-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine-keys@1.1-r0",
+      "type": "library",
+      "name": "alpine-keys",
+      "version": "1.1-r0",
+      "purl": "pkg:apk/alpine-keys@1.1-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/apk-tools@2.6.7-r0",
+      "type": "library",
+      "name": "apk-tools",
+      "version": "2.6.7-r0",
+      "purl": "pkg:apk/apk-tools@2.6.7-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/libc-utils@0.7-r0",
+      "type": "library",
+      "name": "libc-utils",
+      "version": "0.7-r0",
+      "purl": "pkg:apk/libc-utils@0.7-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/scanelf@1.1.6-r0",
+      "type": "library",
+      "name": "scanelf",
+      "version": "1.1.6-r0",
+      "purl": "pkg:apk/scanelf@1.1.6-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/tough-cookie@2.3.1",
+      "type": "library",
+      "name": "tough-cookie",
+      "version": "2.3.1",
+      "purl": "pkg:npm/tough-cookie@2.3.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/minimist@0.0.8",
+      "type": "library",
+      "name": "minimist",
+      "version": "0.0.8",
+      "purl": "pkg:npm/minimist@0.0.8",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/json-schema@0.2.2",
+      "type": "library",
+      "name": "json-schema",
+      "version": "0.2.2",
+      "purl": "pkg:npm/json-schema@0.2.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-1-Clause"
+          }
+        },
+        {
+          "license": {
+            "name": "AFL-2.1"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/extend@3.0.0",
+      "type": "library",
+      "name": "extend",
+      "version": "3.0.0",
+      "purl": "pkg:npm/extend@3.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/ini@1.3.4",
+      "type": "library",
+      "name": "ini",
+      "version": "1.3.4",
+      "purl": "pkg:npm/ini@1.3.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/jsonpointer@2.0.0",
+      "type": "library",
+      "name": "jsonpointer",
+      "version": "2.0.0",
+      "purl": "pkg:npm/jsonpointer@2.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/tar@2.2.1",
+      "type": "library",
+      "name": "tar",
+      "version": "2.2.1",
+      "purl": "pkg:npm/tar@2.2.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/npm@3.10.8",
+      "type": "library",
+      "name": "npm",
+      "version": "3.10.8",
+      "purl": "pkg:npm/npm@3.10.8",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:npm/hoek@2.16.3",
+      "type": "library",
+      "name": "hoek",
+      "version": "2.16.3",
+      "purl": "pkg:npm/hoek@2.16.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/qs@6.2.1",
+      "type": "library",
+      "name": "qs",
+      "version": "6.2.1",
+      "purl": "pkg:npm/qs@6.2.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/debug@2.2.0",
+      "type": "library",
+      "name": "debug",
+      "version": "2.2.0",
+      "purl": "pkg:npm/debug@2.2.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/is-my-json-valid@2.13.1",
+      "type": "library",
+      "name": "is-my-json-valid",
+      "version": "2.13.1",
+      "purl": "pkg:npm/is-my-json-valid@2.13.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/musl-utils@1.1.14-r14",
+      "type": "library",
+      "name": "musl-utils",
+      "version": "1.1.14-r14",
+      "purl": "pkg:apk/musl-utils@1.1.14-r14",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "name": "MIT"
+          }
+        },
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/brace-expansion@1.1.6",
+      "type": "library",
+      "name": "brace-expansion",
+      "version": "1.1.6",
+      "purl": "pkg:npm/brace-expansion@1.1.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/fstream@1.0.10",
+      "type": "library",
+      "name": "fstream",
+      "version": "1.0.10",
+      "purl": "pkg:npm/fstream@1.0.10",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/hawk@3.1.3",
+      "type": "library",
+      "name": "hawk",
+      "version": "3.1.3",
+      "purl": "pkg:npm/hawk@3.1.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/minimatch@3.0.3",
+      "type": "library",
+      "name": "minimatch",
+      "version": "3.0.3",
+      "purl": "pkg:npm/minimatch@3.0.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/musl@1.1.14-r14",
+      "type": "library",
+      "name": "musl",
+      "version": "1.1.14-r14",
+      "purl": "pkg:apk/musl@1.1.14-r14",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/semver@5.3.0",
+      "type": "library",
+      "name": "semver",
+      "version": "5.3.0",
+      "purl": "pkg:npm/semver@5.3.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/sshpk@1.9.2",
+      "type": "library",
+      "name": "sshpk",
+      "version": "1.9.2",
+      "purl": "pkg:npm/sshpk@1.9.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/npm-user-validate@0.1.5",
+      "type": "library",
+      "name": "npm-user-validate",
+      "version": "0.1.5",
+      "purl": "pkg:npm/npm-user-validate@0.1.5",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/bl@1.1.2",
+      "type": "library",
+      "name": "bl",
+      "version": "1.1.2",
+      "purl": "pkg:npm/bl@1.1.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/es5-ext@0.10.12",
+      "type": "library",
+      "name": "es5-ext",
+      "version": "0.10.12",
+      "purl": "pkg:npm/es5-ext@0.10.12",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/hosted-git-info@2.1.5",
+      "type": "library",
+      "name": "hosted-git-info",
+      "version": "2.1.5",
+      "purl": "pkg:npm/hosted-git-info@2.1.5",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/request@2.74.0",
+      "type": "library",
+      "name": "request",
+      "version": "2.74.0",
+      "purl": "pkg:npm/request@2.74.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/stringstream@0.0.5",
+      "type": "library",
+      "name": "stringstream",
+      "version": "0.0.5",
+      "purl": "pkg:npm/stringstream@0.0.5",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/tunnel-agent@0.4.3",
+      "type": "library",
+      "name": "tunnel-agent",
+      "version": "0.4.3",
+      "purl": "pkg:npm/tunnel-agent@0.4.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/ms@0.7.1",
+      "type": "library",
+      "name": "ms",
+      "version": "0.7.1",
+      "purl": "pkg:npm/ms@0.7.1",
+      "licenses": []
+    },
+    {
+      "bom-ref": "pkg:npm/chownr@1.0.1",
+      "type": "library",
+      "name": "chownr",
+      "version": "1.0.1",
+      "purl": "pkg:npm/chownr@1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/libgcc@5.3.0-r0",
+      "type": "library",
+      "name": "libgcc",
+      "version": "5.3.0-r0",
+      "purl": "pkg:apk/libgcc@5.3.0-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/libstdc++@5.3.0-r0",
+      "type": "library",
+      "name": "libstdc++",
+      "version": "5.3.0-r0",
+      "purl": "pkg:apk/libstdc++@5.3.0-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/sha@2.0.1",
+      "type": "library",
+      "name": "sha",
+      "version": "2.0.1",
+      "purl": "pkg:npm/sha@2.0.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        },
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/spdx-expression-parse@1.0.2",
+      "type": "library",
+      "name": "spdx-expression-parse",
+      "version": "1.0.2",
+      "purl": "pkg:npm/spdx-expression-parse@1.0.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        },
+        {
+          "license": {
+            "name": "CC-BY-3.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/abbrev@1.0.9",
+      "type": "library",
+      "name": "abbrev",
+      "version": "1.0.9",
+      "purl": "pkg:npm/abbrev@1.0.9",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/ansi-regex@2.0.0",
+      "type": "library",
+      "name": "ansi-regex",
+      "version": "2.0.0",
+      "purl": "pkg:npm/ansi-regex@2.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/ansi-styles@2.2.1",
+      "type": "library",
+      "name": "ansi-styles",
+      "version": "2.2.1",
+      "purl": "pkg:npm/ansi-styles@2.2.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/ansicolors@0.3.2",
+      "type": "library",
+      "name": "ansicolors",
+      "version": "0.3.2",
+      "purl": "pkg:npm/ansicolors@0.3.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/ansistyles@0.1.3",
+      "type": "library",
+      "name": "ansistyles",
+      "version": "0.1.3",
+      "purl": "pkg:npm/ansistyles@0.1.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/aproba@1.0.4",
+      "type": "library",
+      "name": "aproba",
+      "version": "1.0.4",
+      "purl": "pkg:npm/aproba@1.0.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/archy@1.0.0",
+      "type": "library",
+      "name": "archy",
+      "version": "1.0.0",
+      "purl": "pkg:npm/archy@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/are-we-there-yet@1.1.2",
+      "type": "library",
+      "name": "are-we-there-yet",
+      "version": "1.1.2",
+      "purl": "pkg:npm/are-we-there-yet@1.1.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/array-index@1.0.0",
+      "type": "library",
+      "name": "array-index",
+      "version": "1.0.0",
+      "purl": "pkg:npm/array-index@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/asap@2.0.4",
+      "type": "library",
+      "name": "asap",
+      "version": "2.0.4",
+      "purl": "pkg:npm/asap@2.0.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/asn1@0.2.3",
+      "type": "library",
+      "name": "asn1",
+      "version": "0.2.3",
+      "purl": "pkg:npm/asn1@0.2.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/assert-plus@0.2.0",
+      "type": "library",
+      "name": "assert-plus",
+      "version": "0.2.0",
+      "purl": "pkg:npm/assert-plus@0.2.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/assert-plus@1.0.0",
+      "type": "library",
+      "name": "assert-plus",
+      "version": "1.0.0",
+      "purl": "pkg:npm/assert-plus@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/async@1.5.2",
+      "type": "library",
+      "name": "async",
+      "version": "1.5.2",
+      "purl": "pkg:npm/async@1.5.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/aws-sign2@0.6.0",
+      "type": "library",
+      "name": "aws-sign2",
+      "version": "0.6.0",
+      "purl": "pkg:npm/aws-sign2@0.6.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/aws4@1.4.1",
+      "type": "library",
+      "name": "aws4",
+      "version": "1.4.1",
+      "purl": "pkg:npm/aws4@1.4.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/balanced-match@0.4.2",
+      "type": "library",
+      "name": "balanced-match",
+      "version": "0.4.2",
+      "purl": "pkg:npm/balanced-match@0.4.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/block-stream@0.0.8",
+      "type": "library",
+      "name": "block-stream",
+      "version": "0.0.8",
+      "purl": "pkg:npm/block-stream@0.0.8",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/boom@2.10.1",
+      "type": "library",
+      "name": "boom",
+      "version": "2.10.1",
+      "purl": "pkg:npm/boom@2.10.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/buffer-shims@1.0.0",
+      "type": "library",
+      "name": "buffer-shims",
+      "version": "1.0.0",
+      "purl": "pkg:npm/buffer-shims@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/builtin-modules@1.1.1",
+      "type": "library",
+      "name": "builtin-modules",
+      "version": "1.1.1",
+      "purl": "pkg:npm/builtin-modules@1.1.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/builtins@0.0.7",
+      "type": "library",
+      "name": "builtins",
+      "version": "0.0.7",
+      "purl": "pkg:npm/builtins@0.0.7",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/caseless@0.11.0",
+      "type": "library",
+      "name": "caseless",
+      "version": "0.11.0",
+      "purl": "pkg:npm/caseless@0.11.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/chalk@1.1.3",
+      "type": "library",
+      "name": "chalk",
+      "version": "1.1.3",
+      "purl": "pkg:npm/chalk@1.1.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/clone@1.0.2",
+      "type": "library",
+      "name": "clone",
+      "version": "1.0.2",
+      "purl": "pkg:npm/clone@1.0.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/cmd-shim@2.0.2",
+      "type": "library",
+      "name": "cmd-shim",
+      "version": "2.0.2",
+      "purl": "pkg:npm/cmd-shim@2.0.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/code-point-at@1.0.0",
+      "type": "library",
+      "name": "code-point-at",
+      "version": "1.0.0",
+      "purl": "pkg:npm/code-point-at@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/columnify@1.5.4",
+      "type": "library",
+      "name": "columnify",
+      "version": "1.5.4",
+      "purl": "pkg:npm/columnify@1.5.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/combined-stream@1.0.5",
+      "type": "library",
+      "name": "combined-stream",
+      "version": "1.0.5",
+      "purl": "pkg:npm/combined-stream@1.0.5",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/commander@2.9.0",
+      "type": "library",
+      "name": "commander",
+      "version": "2.9.0",
+      "purl": "pkg:npm/commander@2.9.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/concat-map@0.0.1",
+      "type": "library",
+      "name": "concat-map",
+      "version": "0.0.1",
+      "purl": "pkg:npm/concat-map@0.0.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/concat-stream@1.5.2",
+      "type": "library",
+      "name": "concat-stream",
+      "version": "1.5.2",
+      "purl": "pkg:npm/concat-stream@1.5.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/config-chain@1.1.10",
+      "type": "library",
+      "name": "config-chain",
+      "version": "1.1.10",
+      "purl": "pkg:npm/config-chain@1.1.10",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/console-control-strings@1.1.0",
+      "type": "library",
+      "name": "console-control-strings",
+      "version": "1.1.0",
+      "purl": "pkg:npm/console-control-strings@1.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/core-util-is@1.0.2",
+      "type": "library",
+      "name": "core-util-is",
+      "version": "1.0.2",
+      "purl": "pkg:npm/core-util-is@1.0.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/cryptiles@2.0.5",
+      "type": "library",
+      "name": "cryptiles",
+      "version": "2.0.5",
+      "purl": "pkg:npm/cryptiles@2.0.5",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/d@0.1.1",
+      "type": "library",
+      "name": "d",
+      "version": "0.1.1",
+      "purl": "pkg:npm/d@0.1.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/dashdash@1.14.0",
+      "type": "library",
+      "name": "dashdash",
+      "version": "1.14.0",
+      "purl": "pkg:npm/dashdash@1.14.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/debuglog@1.0.1",
+      "type": "library",
+      "name": "debuglog",
+      "version": "1.0.1",
+      "purl": "pkg:npm/debuglog@1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/defaults@1.0.3",
+      "type": "library",
+      "name": "defaults",
+      "version": "1.0.3",
+      "purl": "pkg:npm/defaults@1.0.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/delayed-stream@1.0.0",
+      "type": "library",
+      "name": "delayed-stream",
+      "version": "1.0.0",
+      "purl": "pkg:npm/delayed-stream@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/delegates@1.0.0",
+      "type": "library",
+      "name": "delegates",
+      "version": "1.0.0",
+      "purl": "pkg:npm/delegates@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/dezalgo@1.0.3",
+      "type": "library",
+      "name": "dezalgo",
+      "version": "1.0.3",
+      "purl": "pkg:npm/dezalgo@1.0.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/ecc-jsbn@0.1.1",
+      "type": "library",
+      "name": "ecc-jsbn",
+      "version": "0.1.1",
+      "purl": "pkg:npm/ecc-jsbn@0.1.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/editor@1.0.0",
+      "type": "library",
+      "name": "editor",
+      "version": "1.0.0",
+      "purl": "pkg:npm/editor@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/es6-iterator@2.0.0",
+      "type": "library",
+      "name": "es6-iterator",
+      "version": "2.0.0",
+      "purl": "pkg:npm/es6-iterator@2.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/es6-symbol@3.1.0",
+      "type": "library",
+      "name": "es6-symbol",
+      "version": "3.1.0",
+      "purl": "pkg:npm/es6-symbol@3.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/escape-string-regexp@1.0.5",
+      "type": "library",
+      "name": "escape-string-regexp",
+      "version": "1.0.5",
+      "purl": "pkg:npm/escape-string-regexp@1.0.5",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/forever-agent@0.6.1",
+      "type": "library",
+      "name": "forever-agent",
+      "version": "0.6.1",
+      "purl": "pkg:npm/forever-agent@0.6.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/form-data@1.0.0-rc4",
+      "type": "library",
+      "name": "form-data",
+      "version": "1.0.0-rc4",
+      "purl": "pkg:npm/form-data@1.0.0-rc4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/fs-vacuum@1.2.9",
+      "type": "library",
+      "name": "fs-vacuum",
+      "version": "1.2.9",
+      "purl": "pkg:npm/fs-vacuum@1.2.9",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/fs-write-stream-atomic@1.0.8",
+      "type": "library",
+      "name": "fs-write-stream-atomic",
+      "version": "1.0.8",
+      "purl": "pkg:npm/fs-write-stream-atomic@1.0.8",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/fs.realpath@1.0.0",
+      "type": "library",
+      "name": "fs.realpath",
+      "version": "1.0.0",
+      "purl": "pkg:npm/fs.realpath@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/fstream-ignore@1.0.5",
+      "type": "library",
+      "name": "fstream-ignore",
+      "version": "1.0.5",
+      "purl": "pkg:npm/fstream-ignore@1.0.5",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/fstream-npm@1.2.0",
+      "type": "library",
+      "name": "fstream-npm",
+      "version": "1.2.0",
+      "purl": "pkg:npm/fstream-npm@1.2.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/generate-function@2.0.0",
+      "type": "library",
+      "name": "generate-function",
+      "version": "2.0.0",
+      "purl": "pkg:npm/generate-function@2.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/generate-object-property@1.2.0",
+      "type": "library",
+      "name": "generate-object-property",
+      "version": "1.2.0",
+      "purl": "pkg:npm/generate-object-property@1.2.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/getpass@0.1.6",
+      "type": "library",
+      "name": "getpass",
+      "version": "0.1.6",
+      "purl": "pkg:npm/getpass@0.1.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/glob@6.0.4",
+      "type": "library",
+      "name": "glob",
+      "version": "6.0.4",
+      "purl": "pkg:npm/glob@6.0.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/glob@7.0.6",
+      "type": "library",
+      "name": "glob",
+      "version": "7.0.6",
+      "purl": "pkg:npm/glob@7.0.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/graceful-fs@4.1.6",
+      "type": "library",
+      "name": "graceful-fs",
+      "version": "4.1.6",
+      "purl": "pkg:npm/graceful-fs@4.1.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/graceful-readlink@1.0.1",
+      "type": "library",
+      "name": "graceful-readlink",
+      "version": "1.0.1",
+      "purl": "pkg:npm/graceful-readlink@1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/har-validator@2.0.6",
+      "type": "library",
+      "name": "har-validator",
+      "version": "2.0.6",
+      "purl": "pkg:npm/har-validator@2.0.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/has-ansi@2.0.0",
+      "type": "library",
+      "name": "has-ansi",
+      "version": "2.0.0",
+      "purl": "pkg:npm/has-ansi@2.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/has-color@0.1.7",
+      "type": "library",
+      "name": "has-color",
+      "version": "0.1.7",
+      "purl": "pkg:npm/has-color@0.1.7",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/has-unicode@2.0.1",
+      "type": "library",
+      "name": "has-unicode",
+      "version": "2.0.1",
+      "purl": "pkg:npm/has-unicode@2.0.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/http-signature@1.1.1",
+      "type": "library",
+      "name": "http-signature",
+      "version": "1.1.1",
+      "purl": "pkg:npm/http-signature@1.1.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:apk/zlib@1.2.8-r2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/libcrypto1.0@1.0.2j-r0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/libssl1.0@1.0.2j-r0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/busybox@1.24.2-r11",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine-baselayout@3.0.3-r0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine-keys@1.1-r0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/apk-tools@2.6.7-r0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/libc-utils@0.7-r0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/scanelf@1.1.6-r0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/tough-cookie@2.3.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/minimist@0.0.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/json-schema@0.2.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/extend@3.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/ini@1.3.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/jsonpointer@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/tar@2.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/npm@3.10.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/hoek@2.16.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/qs@6.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/debug@2.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/is-my-json-valid@2.13.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/musl-utils@1.1.14-r14",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/brace-expansion@1.1.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/fstream@1.0.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/hawk@3.1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/minimatch@3.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/musl@1.1.14-r14",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/semver@5.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/sshpk@1.9.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/npm-user-validate@0.1.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/bl@1.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/es5-ext@0.10.12",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/hosted-git-info@2.1.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/request@2.74.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/stringstream@0.0.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/tunnel-agent@0.4.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/ms@0.7.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/chownr@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/libgcc@5.3.0-r0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/libstdc++@5.3.0-r0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/sha@2.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/spdx-expression-parse@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/abbrev@1.0.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/ansi-regex@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/ansi-styles@2.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/ansicolors@0.3.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/ansistyles@0.1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/aproba@1.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/archy@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/are-we-there-yet@1.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/array-index@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/asap@2.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/asn1@0.2.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/assert-plus@0.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/assert-plus@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/async@1.5.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/aws-sign2@0.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/aws4@1.4.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/balanced-match@0.4.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/block-stream@0.0.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/boom@2.10.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/buffer-shims@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/builtin-modules@1.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/builtins@0.0.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/caseless@0.11.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/chalk@1.1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/clone@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/cmd-shim@2.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/code-point-at@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/columnify@1.5.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/combined-stream@1.0.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/commander@2.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/concat-map@0.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/concat-stream@1.5.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/config-chain@1.1.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/console-control-strings@1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/core-util-is@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/cryptiles@2.0.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/d@0.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/dashdash@1.14.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/debuglog@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/defaults@1.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/delayed-stream@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/delegates@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/dezalgo@1.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/ecc-jsbn@0.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/editor@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/es6-iterator@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/es6-symbol@3.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/escape-string-regexp@1.0.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/forever-agent@0.6.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/form-data@1.0.0-rc4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/fs-vacuum@1.2.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/fs-write-stream-atomic@1.0.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/fs.realpath@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/fstream-ignore@1.0.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/fstream-npm@1.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/generate-function@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/generate-object-property@1.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/getpass@0.1.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/glob@6.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/glob@7.0.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/graceful-fs@4.1.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/graceful-readlink@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/har-validator@2.0.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/has-ansi@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/has-color@0.1.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/has-unicode@2.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/http-signature@1.1.1",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "critical",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/zlib@1.2.8-r2",
+          "versions": [
+            {
+              "version": "1.2.8-r2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2016-9843",
+      "cwes": [],
+      "recommendation": "Upgrade zlib to version 1.2.11-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "critical",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/zlib@1.2.8-r2",
+          "versions": [
+            {
+              "version": "1.2.8-r2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2016-9841",
+      "cwes": [],
+      "recommendation": "Upgrade zlib to version 1.2.11-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/zlib@1.2.8-r2",
+          "versions": [
+            {
+              "version": "1.2.8-r2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2016-9842",
+      "cwes": [],
+      "recommendation": "Upgrade zlib to version 1.2.11-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/zlib@1.2.8-r2",
+          "versions": [
+            {
+              "version": "1.2.8-r2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2016-9840",
+      "cwes": [],
+      "recommendation": "Upgrade zlib to version 1.2.11-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libcrypto1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-0732",
+      "cwes": [
+        320
+      ],
+      "recommendation": "Upgrade libcrypto1.0 to version 1.0.2o-r1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libcrypto1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-3731",
+      "cwes": [
+        125
+      ],
+      "recommendation": "Upgrade libcrypto1.0 to version 1.0.2k-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libcrypto1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-5407",
+      "cwes": [
+        200,
+        203
+      ],
+      "recommendation": "Upgrade libcrypto1.0 to version 1.0.2q-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libcrypto1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-0739",
+      "cwes": [
+        674
+      ],
+      "recommendation": "Upgrade libcrypto1.0 to version 1.0.2o-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libcrypto1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-0737",
+      "cwes": [
+        327
+      ],
+      "recommendation": "Upgrade libcrypto1.0 to version 1.0.2o-r2"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libcrypto1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-0734",
+      "cwes": [
+        327
+      ],
+      "recommendation": "Upgrade libcrypto1.0 to version 1.0.2q-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libcrypto1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-0733",
+      "cwes": [],
+      "recommendation": "Upgrade libcrypto1.0 to version 1.0.2o-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libcrypto1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-3738",
+      "cwes": [
+        200
+      ],
+      "recommendation": "Upgrade libcrypto1.0 to version 1.0.2n-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libcrypto1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-3737",
+      "cwes": [
+        125,
+        787
+      ],
+      "recommendation": "Upgrade libcrypto1.0 to version 1.0.2n-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libcrypto1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-3736",
+      "cwes": [
+        200
+      ],
+      "recommendation": "Upgrade libcrypto1.0 to version 1.0.2m-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libcrypto1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-3735",
+      "cwes": [
+        119
+      ],
+      "recommendation": "Upgrade libcrypto1.0 to version 1.0.2m-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libcrypto1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-3732",
+      "cwes": [
+        200
+      ],
+      "recommendation": "Upgrade libcrypto1.0 to version 1.0.2k-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libcrypto1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2016-7055",
+      "cwes": [],
+      "recommendation": "Upgrade libcrypto1.0 to version 1.0.2k-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libssl1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-0732",
+      "cwes": [
+        320
+      ],
+      "recommendation": "Upgrade libssl1.0 to version 1.0.2o-r1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libssl1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-3731",
+      "cwes": [
+        125
+      ],
+      "recommendation": "Upgrade libssl1.0 to version 1.0.2k-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libssl1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-5407",
+      "cwes": [
+        200,
+        203
+      ],
+      "recommendation": "Upgrade libssl1.0 to version 1.0.2q-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libssl1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-0739",
+      "cwes": [
+        674
+      ],
+      "recommendation": "Upgrade libssl1.0 to version 1.0.2o-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libssl1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-0737",
+      "cwes": [
+        327
+      ],
+      "recommendation": "Upgrade libssl1.0 to version 1.0.2o-r2"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libssl1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-0734",
+      "cwes": [
+        327
+      ],
+      "recommendation": "Upgrade libssl1.0 to version 1.0.2q-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libssl1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-0733",
+      "cwes": [],
+      "recommendation": "Upgrade libssl1.0 to version 1.0.2o-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libssl1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-3738",
+      "cwes": [
+        200
+      ],
+      "recommendation": "Upgrade libssl1.0 to version 1.0.2n-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libssl1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-3737",
+      "cwes": [
+        125,
+        787
+      ],
+      "recommendation": "Upgrade libssl1.0 to version 1.0.2n-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libssl1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-3736",
+      "cwes": [
+        200
+      ],
+      "recommendation": "Upgrade libssl1.0 to version 1.0.2m-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libssl1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-3735",
+      "cwes": [
+        119
+      ],
+      "recommendation": "Upgrade libssl1.0 to version 1.0.2m-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libssl1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-3732",
+      "cwes": [
+        200
+      ],
+      "recommendation": "Upgrade libssl1.0 to version 1.0.2k-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/libssl1.0@1.0.2j-r0",
+          "versions": [
+            {
+              "version": "1.0.2j-r0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2016-7055",
+      "cwes": [],
+      "recommendation": "Upgrade libssl1.0 to version 1.0.2k-r0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/busybox@1.24.2-r11",
+          "versions": [
+            {
+              "version": "1.24.2-r11",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-16544",
+      "cwes": [
+        94
+      ],
+      "recommendation": "Upgrade busybox to version 1.24.2-r13"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/busybox@1.24.2-r11",
+          "versions": [
+            {
+              "version": "1.24.2-r11",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2016-6301",
+      "cwes": [
+        399
+      ],
+      "recommendation": "Upgrade busybox to version 1.24.2-r12"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/busybox@1.24.2-r11",
+          "versions": [
+            {
+              "version": "1.24.2-r11",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-15873",
+      "cwes": [
+        190
+      ],
+      "recommendation": "Upgrade busybox to version 1.24.2-r13"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "critical",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/tough-cookie@2.3.1",
+          "versions": [
+            {
+              "version": "2.3.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2023-26136",
+      "cwes": [
+        1321
+      ],
+      "recommendation": "Upgrade tough-cookie to version 4.1.3"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/tough-cookie@2.3.1",
+          "versions": [
+            {
+              "version": "2.3.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-15010",
+      "cwes": [
+        400
+      ],
+      "recommendation": "Upgrade tough-cookie to version 2.3.3"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "critical",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/minimist@0.0.8",
+          "versions": [
+            {
+              "version": "0.0.8",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2021-44906",
+      "cwes": [
+        1321
+      ],
+      "recommendation": "Upgrade minimist to version 1.2.6, 0.2.4"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/minimist@0.0.8",
+          "versions": [
+            {
+              "version": "0.0.8",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2020-7598",
+      "cwes": [
+        1321
+      ],
+      "recommendation": "Upgrade minimist to version 1.2.3, 0.2.1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "critical",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/json-schema@0.2.2",
+          "versions": [
+            {
+              "version": "0.2.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2021-3918",
+      "cwes": [
+        915,
+        1321
+      ],
+      "recommendation": "Upgrade json-schema to version 0.4.0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "critical",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/extend@3.0.0",
+          "versions": [
+            {
+              "version": "3.0.0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-16492",
+      "cwes": [
+        400
+      ],
+      "recommendation": "Upgrade extend to version 3.0.2, 2.0.2"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "critical",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/ini@1.3.4",
+          "versions": [
+            {
+              "version": "1.3.4",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2020-7788",
+      "cwes": [
+        1321
+      ],
+      "recommendation": "Upgrade ini to version 1.3.6"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "critical",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/jsonpointer@2.0.0",
+          "versions": [
+            {
+              "version": "2.0.0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2021-23807",
+      "cwes": [
+        843,
+        1321
+      ],
+      "recommendation": "Upgrade jsonpointer to version 5.0.0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/tar@2.2.1",
+          "versions": [
+            {
+              "version": "2.2.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2021-37713",
+      "cwes": [
+        22
+      ],
+      "recommendation": "Upgrade tar to version 6.1.9, 5.0.10, 4.4.18"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/tar@2.2.1",
+          "versions": [
+            {
+              "version": "2.2.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2021-32804",
+      "cwes": [
+        22
+      ],
+      "recommendation": "Upgrade tar to version 6.1.1, 5.0.6, 4.4.14, 3.2.2"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/tar@2.2.1",
+          "versions": [
+            {
+              "version": "2.2.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-20834",
+      "cwes": [
+        59
+      ],
+      "recommendation": "Upgrade tar to version 4.4.2, 2.2.2"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/tar@2.2.1",
+          "versions": [
+            {
+              "version": "2.2.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-f5x3-32g6-xq36",
+      "cwes": [
+        400
+      ],
+      "recommendation": "Upgrade tar to version 6.2.1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/npm@3.10.8",
+          "versions": [
+            {
+              "version": "3.10.8",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2019-16776",
+      "cwes": [
+        22
+      ],
+      "recommendation": "Upgrade npm to version 6.13.3"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/npm@3.10.8",
+          "versions": [
+            {
+              "version": "3.10.8",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-7408",
+      "cwes": [
+        732
+      ],
+      "recommendation": "Upgrade npm to version 5.7.1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/npm@3.10.8",
+          "versions": [
+            {
+              "version": "3.10.8",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2020-15095",
+      "cwes": [
+        532
+      ],
+      "recommendation": "Upgrade npm to version 6.14.6"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/npm@3.10.8",
+          "versions": [
+            {
+              "version": "3.10.8",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2019-16777",
+      "cwes": [
+        22,
+        269
+      ],
+      "recommendation": "Upgrade npm to version 6.13.4"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/npm@3.10.8",
+          "versions": [
+            {
+              "version": "3.10.8",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2019-16775",
+      "cwes": [
+        59,
+        61
+      ],
+      "recommendation": "Upgrade npm to version 6.13.3"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/hoek@2.16.3",
+          "versions": [
+            {
+              "version": "2.16.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2020-36604",
+      "cwes": [
+        1321
+      ],
+      "recommendation": "Upgrade hoek to version "
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/hoek@2.16.3",
+          "versions": [
+            {
+              "version": "2.16.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-3728",
+      "cwes": [
+        1321
+      ],
+      "recommendation": "Upgrade hoek to version 5.0.3, 4.2.1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/qs@6.2.1",
+          "versions": [
+            {
+              "version": "6.2.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2022-24999",
+      "cwes": [
+        1321
+      ],
+      "recommendation": "Upgrade qs to version 6.10.3, 6.9.7, 6.8.3, 6.7.3, 6.6.1, 6.5.3, 6.4.1, 6.3.3, 6.2.4"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/qs@6.2.1",
+          "versions": [
+            {
+              "version": "6.2.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-1000048",
+      "cwes": [
+        20
+      ],
+      "recommendation": "Upgrade qs to version 6.3.2, 6.2.3, 6.1.2, 6.0.4"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/debug@2.2.0",
+          "versions": [
+            {
+              "version": "2.2.0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-20165",
+      "cwes": [
+        1333
+      ],
+      "recommendation": "Upgrade debug to version 3.1.0, 2.6.9"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/debug@2.2.0",
+          "versions": [
+            {
+              "version": "2.2.0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-16137",
+      "cwes": [
+        400
+      ],
+      "recommendation": "Upgrade debug to version 4.3.1, 3.2.7, 3.1.0, 2.6.9"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/is-my-json-valid@2.13.1",
+          "versions": [
+            {
+              "version": "2.13.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2016-2537",
+      "cwes": [
+        1333
+      ],
+      "recommendation": "Upgrade is-my-json-valid to version 2.17.2, 1.4.1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/is-my-json-valid@2.13.1",
+          "versions": [
+            {
+              "version": "2.13.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-1107",
+      "cwes": [
+        400
+      ],
+      "recommendation": "Upgrade is-my-json-valid to version 2.17.2, 1.4.1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/musl-utils@1.1.14-r14",
+          "versions": [
+            {
+              "version": "1.1.14-r14",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-15650",
+      "cwes": [
+        119
+      ],
+      "recommendation": "Upgrade musl-utils to version 1.1.14-r16"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/brace-expansion@1.1.6",
+          "versions": [
+            {
+              "version": "1.1.6",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-18077",
+      "cwes": [
+        1333
+      ],
+      "recommendation": "Upgrade brace-expansion to version 1.1.7"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/fstream@1.0.10",
+          "versions": [
+            {
+              "version": "1.0.10",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2019-13173",
+      "cwes": [
+        59
+      ],
+      "recommendation": "Upgrade fstream to version 1.0.12"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/hawk@3.1.3",
+          "versions": [
+            {
+              "version": "3.1.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2022-29167",
+      "cwes": [
+        400,
+        1333
+      ],
+      "recommendation": "Upgrade hawk to version 9.0.1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/minimatch@3.0.3",
+          "versions": [
+            {
+              "version": "3.0.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2022-3517",
+      "cwes": [
+        400,
+        1333
+      ],
+      "recommendation": "Upgrade minimatch to version 3.0.5"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:apk/musl@1.1.14-r14",
+          "versions": [
+            {
+              "version": "1.1.14-r14",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-15650",
+      "cwes": [
+        119
+      ],
+      "recommendation": "Upgrade musl to version 1.1.14-r16"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/semver@5.3.0",
+          "versions": [
+            {
+              "version": "5.3.0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2022-25883",
+      "cwes": [
+        1333
+      ],
+      "recommendation": "Upgrade semver to version 7.5.2, 6.3.1, 5.7.2"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "high",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/sshpk@1.9.2",
+          "versions": [
+            {
+              "version": "1.9.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-3737",
+      "cwes": [
+        185,
+        770
+      ],
+      "recommendation": "Upgrade sshpk to version 1.13.2"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/npm-user-validate@0.1.5",
+          "versions": [
+            {
+              "version": "0.1.5",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2020-7754",
+      "cwes": [
+        400
+      ],
+      "recommendation": "Upgrade npm-user-validate to version 1.0.1"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "low",
+          "source": {
+            "name": "GHSA"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/npm-user-validate@0.1.5",
+          "versions": [
+            {
+              "version": "0.1.5",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-xgh6-85xh-479p",
+      "cwes": [],
+      "recommendation": "Upgrade npm-user-validate to version 1.0.1"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/bl@1.1.2",
+          "versions": [
+            {
+              "version": "1.1.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2020-8244",
+      "cwes": [
+        125,
+        126
+      ],
+      "recommendation": "Upgrade bl to version 4.0.3, 3.0.1, 2.2.1, 1.2.3"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/es5-ext@0.10.12",
+          "versions": [
+            {
+              "version": "0.10.12",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2024-27088",
+      "cwes": [
+        1333
+      ],
+      "recommendation": "Upgrade es5-ext to version 0.10.63"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/hosted-git-info@2.1.5",
+          "versions": [
+            {
+              "version": "2.1.5",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2021-23362",
+      "cwes": [
+        400
+      ],
+      "recommendation": "Upgrade hosted-git-info to version 3.0.8, 2.8.9"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/request@2.74.0",
+          "versions": [
+            {
+              "version": "2.74.0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2023-28155",
+      "cwes": [
+        918
+      ],
+      "recommendation": "Upgrade request to version "
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/stringstream@0.0.5",
+          "versions": [
+            {
+              "version": "0.0.5",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2018-21270",
+      "cwes": [
+        125
+      ],
+      "recommendation": "Upgrade stringstream to version 0.0.6"
+    },
+    {
+      "source": {
+        "name": "GHSA"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "GHSA"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/tunnel-agent@0.4.3",
+          "versions": [
+            {
+              "version": "0.4.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "GHSA-xc7v-wxcw-j472",
+      "cwes": [
+        200
+      ],
+      "recommendation": "Upgrade tunnel-agent to version 0.6.0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "medium",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/ms@0.7.1",
+          "versions": [
+            {
+              "version": "0.7.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-20162",
+      "cwes": [
+        1333
+      ],
+      "recommendation": "Upgrade ms to version 2.0.0"
+    },
+    {
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "severity": "low",
+          "source": {
+            "name": "NVD"
+          }
+        }
+      ],
+      "affects": [
+        {
+          "ref": "pkg:npm/chownr@1.0.1",
+          "versions": [
+            {
+              "version": "1.0.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "id": "CVE-2017-18869",
+      "cwes": [
+        367
+      ],
+      "recommendation": "Upgrade chownr to version 1.1.0"
+    }
+  ]
+}
