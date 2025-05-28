@@ -1,0 +1,556 @@
+[
+  {
+    "Id": "CVE-2016-2537",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "2.17.2, 1.4.1",
+    "Cwes": [
+      "CWE-1333"
+    ]
+  },
+  {
+    "Id": "CVE-2016-6301",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "1.24.2-r12",
+    "Cwes": [
+      "CWE-399"
+    ]
+  },
+  {
+    "Id": "CVE-2016-7055",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "1.0.2k-r0",
+    "Cwes": null
+  },
+  {
+    "Id": "CVE-2016-9840",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "1.2.11-r0",
+    "Cwes": null
+  },
+  {
+    "Id": "CVE-2016-9841",
+    "Severity": 1,
+    "Source": "NVD",
+    "FixedVersions": "1.2.11-r0",
+    "Cwes": null
+  },
+  {
+    "Id": "CVE-2016-9842",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "1.2.11-r0",
+    "Cwes": null
+  },
+  {
+    "Id": "CVE-2016-9843",
+    "Severity": 1,
+    "Source": "NVD",
+    "FixedVersions": "1.2.11-r0",
+    "Cwes": null
+  },
+  {
+    "Id": "CVE-2017-1000048",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "6.3.2, 6.2.3, 6.1.2, 6.0.4",
+    "Cwes": [
+      "CWE-20"
+    ]
+  },
+  {
+    "Id": "CVE-2017-15010",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "2.3.3",
+    "Cwes": [
+      "CWE-400"
+    ]
+  },
+  {
+    "Id": "CVE-2017-15650",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "1.1.14-r16",
+    "Cwes": [
+      "CWE-119"
+    ]
+  },
+  {
+    "Id": "CVE-2017-15873",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "1.24.2-r13",
+    "Cwes": [
+      "CWE-190"
+    ]
+  },
+  {
+    "Id": "CVE-2017-16137",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "4.3.1, 3.2.7, 3.1.0, 2.6.9",
+    "Cwes": [
+      "CWE-400"
+    ]
+  },
+  {
+    "Id": "CVE-2017-16544",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "1.24.2-r13",
+    "Cwes": [
+      "CWE-94"
+    ]
+  },
+  {
+    "Id": "CVE-2017-18077",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "1.1.7",
+    "Cwes": [
+      "CWE-1333"
+    ]
+  },
+  {
+    "Id": "CVE-2017-18869",
+    "Severity": 4,
+    "Source": "NVD",
+    "FixedVersions": "1.1.0",
+    "Cwes": [
+      "CWE-367"
+    ]
+  },
+  {
+    "Id": "CVE-2017-20162",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "2.0.0",
+    "Cwes": [
+      "CWE-1333"
+    ]
+  },
+  {
+    "Id": "CVE-2017-20165",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "3.1.0, 2.6.9",
+    "Cwes": [
+      "CWE-1333"
+    ]
+  },
+  {
+    "Id": "CVE-2017-3731",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "1.0.2k-r0",
+    "Cwes": [
+      "CWE-125"
+    ]
+  },
+  {
+    "Id": "CVE-2017-3732",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "1.0.2k-r0",
+    "Cwes": [
+      "CWE-200"
+    ]
+  },
+  {
+    "Id": "CVE-2017-3735",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "1.0.2m-r0",
+    "Cwes": [
+      "CWE-119"
+    ]
+  },
+  {
+    "Id": "CVE-2017-3736",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "1.0.2m-r0",
+    "Cwes": [
+      "CWE-200"
+    ]
+  },
+  {
+    "Id": "CVE-2017-3737",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "1.0.2n-r0",
+    "Cwes": [
+      "CWE-125",
+      "CWE-787"
+    ]
+  },
+  {
+    "Id": "CVE-2017-3738",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "1.0.2n-r0",
+    "Cwes": [
+      "CWE-200"
+    ]
+  },
+  {
+    "Id": "CVE-2018-0732",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "1.0.2o-r1",
+    "Cwes": [
+      "CWE-320"
+    ]
+  },
+  {
+    "Id": "CVE-2018-0733",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "1.0.2o-r0",
+    "Cwes": null
+  },
+  {
+    "Id": "CVE-2018-0734",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "1.0.2q-r0",
+    "Cwes": [
+      "CWE-327"
+    ]
+  },
+  {
+    "Id": "CVE-2018-0737",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "1.0.2o-r2",
+    "Cwes": [
+      "CWE-327"
+    ]
+  },
+  {
+    "Id": "CVE-2018-0739",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "1.0.2o-r0",
+    "Cwes": [
+      "CWE-674"
+    ]
+  },
+  {
+    "Id": "CVE-2018-1107",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "2.17.2, 1.4.1",
+    "Cwes": [
+      "CWE-400"
+    ]
+  },
+  {
+    "Id": "CVE-2018-16492",
+    "Severity": 1,
+    "Source": "NVD",
+    "FixedVersions": "3.0.2, 2.0.2",
+    "Cwes": [
+      "CWE-400"
+    ]
+  },
+  {
+    "Id": "CVE-2018-20834",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "4.4.2, 2.2.2",
+    "Cwes": [
+      "CWE-59"
+    ]
+  },
+  {
+    "Id": "CVE-2018-21270",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "0.0.6",
+    "Cwes": [
+      "CWE-125"
+    ]
+  },
+  {
+    "Id": "CVE-2018-3728",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "5.0.3, 4.2.1",
+    "Cwes": [
+      "CWE-1321"
+    ]
+  },
+  {
+    "Id": "CVE-2018-3737",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "1.13.2",
+    "Cwes": [
+      "CWE-185",
+      "CWE-770"
+    ]
+  },
+  {
+    "Id": "CVE-2018-5407",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "1.0.2q-r0",
+    "Cwes": [
+      "CWE-200",
+      "CWE-203"
+    ]
+  },
+  {
+    "Id": "CVE-2018-7408",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "5.7.1",
+    "Cwes": [
+      "CWE-732"
+    ]
+  },
+  {
+    "Id": "CVE-2019-13173",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "1.0.12",
+    "Cwes": [
+      "CWE-59"
+    ]
+  },
+  {
+    "Id": "CVE-2019-16775",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "6.13.3",
+    "Cwes": [
+      "CWE-59",
+      "CWE-61"
+    ]
+  },
+  {
+    "Id": "CVE-2019-16776",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "6.13.3",
+    "Cwes": [
+      "CWE-22"
+    ]
+  },
+  {
+    "Id": "CVE-2019-16777",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "6.13.4",
+    "Cwes": [
+      "CWE-22",
+      "CWE-269"
+    ]
+  },
+  {
+    "Id": "CVE-2020-15095",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "6.14.6",
+    "Cwes": [
+      "CWE-532"
+    ]
+  },
+  {
+    "Id": "CVE-2020-36604",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "",
+    "Cwes": [
+      "CWE-1321"
+    ]
+  },
+  {
+    "Id": "CVE-2020-7598",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "1.2.3, 0.2.1",
+    "Cwes": [
+      "CWE-1321"
+    ]
+  },
+  {
+    "Id": "CVE-2020-7754",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "1.0.1",
+    "Cwes": [
+      "CWE-400"
+    ]
+  },
+  {
+    "Id": "CVE-2020-7788",
+    "Severity": 1,
+    "Source": "NVD",
+    "FixedVersions": "1.3.6",
+    "Cwes": [
+      "CWE-1321"
+    ]
+  },
+  {
+    "Id": "CVE-2020-8244",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "4.0.3, 3.0.1, 2.2.1, 1.2.3",
+    "Cwes": [
+      "CWE-125",
+      "CWE-126"
+    ]
+  },
+  {
+    "Id": "CVE-2021-23362",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "3.0.8, 2.8.9",
+    "Cwes": [
+      "CWE-400"
+    ]
+  },
+  {
+    "Id": "CVE-2021-23807",
+    "Severity": 1,
+    "Source": "NVD",
+    "FixedVersions": "5.0.0",
+    "Cwes": [
+      "CWE-843",
+      "CWE-1321"
+    ]
+  },
+  {
+    "Id": "CVE-2021-32804",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "6.1.1, 5.0.6, 4.4.14, 3.2.2",
+    "Cwes": [
+      "CWE-22"
+    ]
+  },
+  {
+    "Id": "CVE-2021-37713",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "6.1.9, 5.0.10, 4.4.18",
+    "Cwes": [
+      "CWE-22"
+    ]
+  },
+  {
+    "Id": "CVE-2021-3918",
+    "Severity": 1,
+    "Source": "NVD",
+    "FixedVersions": "0.4.0",
+    "Cwes": [
+      "CWE-915",
+      "CWE-1321"
+    ]
+  },
+  {
+    "Id": "CVE-2021-44906",
+    "Severity": 1,
+    "Source": "NVD",
+    "FixedVersions": "1.2.6, 0.2.4",
+    "Cwes": [
+      "CWE-1321"
+    ]
+  },
+  {
+    "Id": "CVE-2022-24999",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "6.10.3, 6.9.7, 6.8.3, 6.7.3, 6.6.1, 6.5.3, 6.4.1, 6.3.3, 6.2.4",
+    "Cwes": [
+      "CWE-1321"
+    ]
+  },
+  {
+    "Id": "CVE-2022-25883",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "7.5.2, 6.3.1, 5.7.2",
+    "Cwes": [
+      "CWE-1333"
+    ]
+  },
+  {
+    "Id": "CVE-2022-29167",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "9.0.1",
+    "Cwes": [
+      "CWE-400",
+      "CWE-1333"
+    ]
+  },
+  {
+    "Id": "CVE-2022-3517",
+    "Severity": 2,
+    "Source": "NVD",
+    "FixedVersions": "3.0.5",
+    "Cwes": [
+      "CWE-400",
+      "CWE-1333"
+    ]
+  },
+  {
+    "Id": "CVE-2023-26136",
+    "Severity": 1,
+    "Source": "NVD",
+    "FixedVersions": "4.1.3",
+    "Cwes": [
+      "CWE-1321"
+    ]
+  },
+  {
+    "Id": "CVE-2023-28155",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "",
+    "Cwes": [
+      "CWE-918"
+    ]
+  },
+  {
+    "Id": "CVE-2024-27088",
+    "Severity": 3,
+    "Source": "NVD",
+    "FixedVersions": "0.10.63",
+    "Cwes": [
+      "CWE-1333"
+    ]
+  },
+  {
+    "Id": "GHSA-f5x3-32g6-xq36",
+    "Severity": 3,
+    "Source": "GHSA",
+    "FixedVersions": "6.2.1",
+    "Cwes": [
+      "CWE-400"
+    ]
+  },
+  {
+    "Id": "GHSA-xc7v-wxcw-j472",
+    "Severity": 3,
+    "Source": "GHSA",
+    "FixedVersions": "0.6.0",
+    "Cwes": [
+      "CWE-200"
+    ]
+  },
+  {
+    "Id": "GHSA-xgh6-85xh-479p",
+    "Severity": 4,
+    "Source": "GHSA",
+    "FixedVersions": "1.0.1",
+    "Cwes": null
+  }
+]
