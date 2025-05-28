@@ -1,0 +1,2414 @@
+[
+    {
+        "ScanId": "682b0f74e236976fb715afa5",
+        "Repository": {
+            "ConnectionId": "92921c99-e26a-4d33-a51c-e2ecdc23e55f",
+            "ConnectionName": "Github Testing",
+            "ProtocolType": "GitHubSdk",
+            "RepositoryId": "R2l0aHViIFRlc3RpbmcvODE2NzUxMjU2",
+            "RepositoryName": "demo-dataset",
+            "RepositoryReference": "main",
+            "RepositoryMetadata": null
+        },
+        "ScanInformation": {
+            "Malware": true,
+            "Secret": false,
+            "VulnerabilityIssues": {
+                "critical": 12,
+                "high": 33,
+                "medium": 36,
+                "low": 3,
+                "unknown": 0
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 0,
+                "Allowed": [
+                    {
+                        "Id": "MIT"
+                    },
+                    {
+                        "Id": "Apache-2.0"
+                    },
+                    {
+                        "Id": "ISC"
+                    },
+                    {
+                        "Id": "BSD-3-Clause"
+                    },
+                    {
+                        "Id": "MPL-2.0"
+                    },
+                    {
+                        "Id": "LGPL-2.1-or-later"
+                    }
+                ],
+                "Blocked": []
+            },
+            "Workflow": {
+                "WorkflowId": "6826e11da115d52d85a23cb1",
+                "WorkflowName": "Jira WF",
+                "WorkflowType": "SourceCode",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": true,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "6826e041a115d52d85a23caf",
+                            "Project": "Testing for MDSSC",
+                            "ProjectId": "15710",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 150,
+                "VulnerablePackages": 38
+            },
+            "ScannedOn": "2025-05-19T11:01:08.894Z",
+            "StopTime": "2025-05-19T11:01:21.758Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Completed",
+            "UploadProgress": 100,
+            "ScanProgress": 100
+        }
+    },
+    {
+        "ScanId": "682b0c7fe236976fb715afa3",
+        "Repository": {
+            "ConnectionId": "92921c99-e26a-4d33-a51c-e2ecdc23e55f",
+            "ConnectionName": "Github Testing",
+            "ProtocolType": "GitHubSdk",
+            "RepositoryId": "R2l0aHViIFRlc3RpbmcvNzQwNDc4OTQx",
+            "RepositoryName": "demo-dataset",
+            "RepositoryReference": "main",
+            "RepositoryMetadata": null
+        },
+        "ScanInformation": {
+            "Malware": true,
+            "Secret": true,
+            "VulnerabilityIssues": {
+                "critical": 37,
+                "high": 73,
+                "medium": 62,
+                "low": 6,
+                "unknown": 0
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 0,
+                "Allowed": [
+                    {
+                        "Id": "MIT"
+                    },
+                    {
+                        "Id": "MPL-2.0"
+                    },
+                    {
+                        "Id": "Apache-2.0"
+                    },
+                    {
+                        "Id": "BSD-3-Clause"
+                    },
+                    {
+                        "Id": "LGPL-2.1-or-later"
+                    },
+                    {
+                        "Id": "BSD-1-Clause"
+                    },
+                    {
+                        "Id": "AFL-2.1"
+                    },
+                    {
+                        "Id": "ISC"
+                    },
+                    {
+                        "Id": "BSD-2-Clause"
+                    },
+                    {
+                        "Id": "Unlicense"
+                    },
+                    {
+                        "Id": "PSF-2.0"
+                    },
+                    {
+                        "Id": "WTFPL"
+                    }
+                ],
+                "Blocked": []
+            },
+            "Workflow": {
+                "WorkflowId": "6822f1e17769cd1701b2707f",
+                "WorkflowName": "SC",
+                "WorkflowType": "SourceCode",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "",
+                            "Project": "",
+                            "ProjectId": "",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 150,
+                "VulnerablePackages": 38
+            },
+            "ScannedOn": "2025-05-19T10:48:31.069Z",
+            "StopTime": "2025-05-20T02:18:14.477Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Cancelled",
+            "UploadProgress": 99,
+            "ScanProgress": 98
+        }
+    },
+    {
+        "ScanId": "6826e20af7063eb0b0d7456d",
+        "Repository": {
+            "ConnectionId": "e7dc5fe6-b78b-49f8-8ab5-ffc6f61a7628",
+            "ConnectionName": "AzureARC Testing",
+            "ProtocolType": "AzureAcrSdk",
+            "RepositoryId": "QXp1cmVBUkMgVGVzdGluZy97IlJlZ2lzdHJ5IjoibWRzc2NSZWdpc3RyeSIsIkltYWdlTmFtZSI6ImRlbW8vZGVtb19kYXRhc2V0In0=",
+            "RepositoryName": "demo/demo_dataset",
+            "RepositoryReference": "latest",
+            "RepositoryMetadata": null
+        },
+        "ScanInformation": {
+            "Malware": true,
+            "Secret": true,
+            "VulnerabilityIssues": {
+                "critical": 9,
+                "high": 26,
+                "medium": 27,
+                "low": 2,
+                "unknown": 0
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 2,
+                "Allowed": [
+                    {
+                        "Id": "Zlib"
+                    },
+                    {
+                        "Id": "BSD-3-Clause"
+                    },
+                    {
+                        "Id": "MIT"
+                    },
+                    {
+                        "Id": "BSD-1-Clause"
+                    },
+                    {
+                        "Id": "AFL-2.1"
+                    },
+                    {
+                        "Id": "ISC"
+                    },
+                    {
+                        "Id": "BSD-2-Clause"
+                    },
+                    {
+                        "Id": "Apache-2.0"
+                    },
+                    {
+                        "Id": "LGPL-2.0-or-later"
+                    },
+                    {
+                        "Id": "CC-BY-3.0"
+                    }
+                ],
+                "Blocked": [
+                    {
+                        "Id": "GPL-2.0-only"
+                    },
+                    {
+                        "Id": "GPL-2.0-or-later"
+                    }
+                ]
+            },
+            "Workflow": {
+                "WorkflowId": "6826e19ba115d52d85a23cb2",
+                "WorkflowName": "Dc Jira",
+                "WorkflowType": "Container",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": true,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "6826e041a115d52d85a23caf",
+                            "Project": "Testing for MDSSC",
+                            "ProjectId": "15710",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 114,
+                "VulnerablePackages": 37
+            },
+            "ScannedOn": "2025-05-16T06:58:18.005Z",
+            "StopTime": "2025-05-16T07:01:27.11Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Completed",
+            "UploadProgress": 100,
+            "ScanProgress": 100
+        }
+    },
+    {
+        "ScanId": "6826e1f2f7063eb0b0d7456b",
+        "Repository": {
+            "ConnectionId": "92921c99-e26a-4d33-a51c-e2ecdc23e55f",
+            "ConnectionName": "Github Testing",
+            "ProtocolType": "GitHubSdk",
+            "RepositoryId": "R2l0aHViIFRlc3RpbmcvODE2NzUxMjU2",
+            "RepositoryName": "demo-dataset",
+            "RepositoryReference": "main",
+            "RepositoryMetadata": null
+        },
+        "ScanInformation": {
+            "Malware": true,
+            "Secret": false,
+            "VulnerabilityIssues": {
+                "critical": 12,
+                "high": 33,
+                "medium": 36,
+                "low": 3,
+                "unknown": 0
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 0,
+                "Allowed": [
+                    {
+                        "Id": "MIT"
+                    },
+                    {
+                        "Id": "Apache-2.0"
+                    },
+                    {
+                        "Id": "ISC"
+                    },
+                    {
+                        "Id": "BSD-3-Clause"
+                    },
+                    {
+                        "Id": "MPL-2.0"
+                    },
+                    {
+                        "Id": "LGPL-2.1-or-later"
+                    }
+                ],
+                "Blocked": []
+            },
+            "Workflow": {
+                "WorkflowId": "6826e11da115d52d85a23cb1",
+                "WorkflowName": "Jira WF",
+                "WorkflowType": "SourceCode",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": true,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "6826e041a115d52d85a23caf",
+                            "Project": "Testing for MDSSC",
+                            "ProjectId": "15710",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 150,
+                "VulnerablePackages": 38
+            },
+            "ScannedOn": "2025-05-16T06:57:54.495Z",
+            "StopTime": "2025-05-16T06:58:12.158Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Completed",
+            "UploadProgress": 100,
+            "ScanProgress": 100
+        }
+    },
+    {
+        "ScanId": "6824595f4d1786dfda2e8de7",
+        "Repository": {
+            "ConnectionId": "e7dc5fe6-b78b-49f8-8ab5-ffc6f61a7628",
+            "ConnectionName": "AzureARC Testing",
+            "ProtocolType": "AzureAcrSdk",
+            "RepositoryId": "QXp1cmVBUkMgVGVzdGluZy97IlJlZ2lzdHJ5IjoibWRzc2NSZWdpc3RyeSIsIkltYWdlTmFtZSI6ImRlbW8vZGVtb19zYm9tLWRhdGFzZXQifQ==",
+            "RepositoryName": "demo/demo_sbom-dataset",
+            "RepositoryReference": "latest",
+            "RepositoryMetadata": null
+        },
+        "ScanInformation": {
+            "Malware": false,
+            "Secret": false,
+            "VulnerabilityIssues": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "unknown": 0
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 0,
+                "Allowed": [],
+                "Blocked": []
+            },
+            "Workflow": {
+                "WorkflowId": "6822f26a7769cd1701b27080",
+                "WorkflowName": "Container",
+                "WorkflowType": "Container",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "",
+                            "Project": "",
+                            "ProjectId": "",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 119,
+                "VulnerablePackages": 37
+            },
+            "ScannedOn": "2025-05-14T08:50:39.3Z",
+            "StopTime": "2025-05-14T08:50:43.936Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Cancelled",
+            "UploadProgress": 0,
+            "ScanProgress": 0
+        }
+    },
+    {
+        "ScanId": "682454cd4d1786dfda2e8de5",
+        "Repository": {
+            "ConnectionId": "e7dc5fe6-b78b-49f8-8ab5-ffc6f61a7628",
+            "ConnectionName": "AzureARC Testing",
+            "ProtocolType": "AzureAcrSdk",
+            "RepositoryId": "QXp1cmVBUkMgVGVzdGluZy97IlJlZ2lzdHJ5IjoibWRzc2NSZWdpc3RyeSIsIkltYWdlTmFtZSI6ImRlbW8vZGVtb19zYm9tLWRhdGFzZXQifQ==",
+            "RepositoryName": "demo/demo_sbom-dataset",
+            "RepositoryReference": "latest",
+            "RepositoryMetadata": null
+        },
+        "ScanInformation": {
+            "Malware": false,
+            "Secret": false,
+            "VulnerabilityIssues": {
+                "critical": 9,
+                "high": 26,
+                "medium": 27,
+                "low": 2,
+                "unknown": 0
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 2,
+                "Allowed": [
+                    {
+                        "Id": "Zlib"
+                    },
+                    {
+                        "Id": "BSD-3-Clause"
+                    },
+                    {
+                        "Id": "MIT"
+                    },
+                    {
+                        "Id": "BSD-1-Clause"
+                    },
+                    {
+                        "Id": "AFL-2.1"
+                    },
+                    {
+                        "Id": "ISC"
+                    },
+                    {
+                        "Id": "BSD-2-Clause"
+                    },
+                    {
+                        "Id": "Apache-2.0"
+                    },
+                    {
+                        "Id": "LGPL-2.0-or-later"
+                    },
+                    {
+                        "Id": "CC-BY-3.0"
+                    }
+                ],
+                "Blocked": [
+                    {
+                        "Id": "GPL-2.0-only"
+                    },
+                    {
+                        "Id": "GPL-2.0-or-later"
+                    }
+                ]
+            },
+            "Workflow": {
+                "WorkflowId": "6822f26a7769cd1701b27080",
+                "WorkflowName": "Container",
+                "WorkflowType": "Container",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "",
+                            "Project": "",
+                            "ProjectId": "",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 119,
+                "VulnerablePackages": 37
+            },
+            "ScannedOn": "2025-05-14T08:31:09.342Z",
+            "StopTime": "2025-05-14T08:32:43.015Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Completed",
+            "UploadProgress": 100,
+            "ScanProgress": 100
+        }
+    },
+    {
+        "ScanId": "682452454d1786dfda2e8de3",
+        "Repository": {
+            "ConnectionId": "e7dc5fe6-b78b-49f8-8ab5-ffc6f61a7628",
+            "ConnectionName": "AzureARC Testing",
+            "ProtocolType": "AzureAcrSdk",
+            "RepositoryId": "QXp1cmVBUkMgVGVzdGluZy97IlJlZ2lzdHJ5IjoibWRzc2NSZWdpc3RyeSIsIkltYWdlTmFtZSI6ImRlbW8vZGVtb19kYXRhc2V0In0=",
+            "RepositoryName": "demo/demo_dataset",
+            "RepositoryReference": "v2",
+            "RepositoryMetadata": null
+        },
+        "ScanInformation": {
+            "Malware": true,
+            "Secret": true,
+            "VulnerabilityIssues": {
+                "critical": 9,
+                "high": 26,
+                "medium": 27,
+                "low": 2,
+                "unknown": 0
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 2,
+                "Allowed": [
+                    {
+                        "Id": "Zlib"
+                    },
+                    {
+                        "Id": "BSD-3-Clause"
+                    },
+                    {
+                        "Id": "MIT"
+                    },
+                    {
+                        "Id": "BSD-1-Clause"
+                    },
+                    {
+                        "Id": "AFL-2.1"
+                    },
+                    {
+                        "Id": "ISC"
+                    },
+                    {
+                        "Id": "BSD-2-Clause"
+                    },
+                    {
+                        "Id": "Apache-2.0"
+                    },
+                    {
+                        "Id": "LGPL-2.0-or-later"
+                    },
+                    {
+                        "Id": "CC-BY-3.0"
+                    }
+                ],
+                "Blocked": [
+                    {
+                        "Id": "GPL-2.0-only"
+                    },
+                    {
+                        "Id": "GPL-2.0-or-later"
+                    }
+                ]
+            },
+            "Workflow": {
+                "WorkflowId": "6822f26a7769cd1701b27080",
+                "WorkflowName": "Container",
+                "WorkflowType": "Container",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "",
+                            "Project": "",
+                            "ProjectId": "",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 114,
+                "VulnerablePackages": 37
+            },
+            "ScannedOn": "2025-05-14T08:20:21.18Z",
+            "StopTime": "2025-05-14T08:21:38.013Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Completed",
+            "UploadProgress": 100,
+            "ScanProgress": 100
+        }
+    },
+    {
+        "ScanId": "68244e944d1786dfda2e8de1",
+        "Repository": {
+            "ConnectionId": "82d3f709-3c30-47b8-8d12-fdb364984932",
+            "ConnectionName": "Dockerhub Testing",
+            "ProtocolType": "DockerHubSdk",
+            "RepositoryId": "RG9ja2VyaHViIFRlc3Rpbmcvc3RlbGlhbmdoZW9hY2UvZGVtb19kYXRhc2V0",
+            "RepositoryName": "steliangheoace/demo_dataset",
+            "RepositoryReference": "latest",
+            "RepositoryMetadata": "steliangheoace"
+        },
+        "ScanInformation": {
+            "Malware": true,
+            "Secret": true,
+            "VulnerabilityIssues": {
+                "critical": 9,
+                "high": 26,
+                "medium": 27,
+                "low": 2,
+                "unknown": 0
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 2,
+                "Allowed": [
+                    {
+                        "Id": "Zlib"
+                    },
+                    {
+                        "Id": "BSD-3-Clause"
+                    },
+                    {
+                        "Id": "MIT"
+                    },
+                    {
+                        "Id": "BSD-1-Clause"
+                    },
+                    {
+                        "Id": "AFL-2.1"
+                    },
+                    {
+                        "Id": "ISC"
+                    },
+                    {
+                        "Id": "BSD-2-Clause"
+                    },
+                    {
+                        "Id": "Apache-2.0"
+                    },
+                    {
+                        "Id": "LGPL-2.0-or-later"
+                    },
+                    {
+                        "Id": "CC-BY-3.0"
+                    }
+                ],
+                "Blocked": [
+                    {
+                        "Id": "GPL-2.0-only"
+                    },
+                    {
+                        "Id": "GPL-2.0-or-later"
+                    }
+                ]
+            },
+            "Workflow": {
+                "WorkflowId": "6822f26a7769cd1701b27080",
+                "WorkflowName": "Container",
+                "WorkflowType": "Container",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "",
+                            "Project": "",
+                            "ProjectId": "",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 114,
+                "VulnerablePackages": 37
+            },
+            "ScannedOn": "2025-05-14T08:04:36.922Z",
+            "StopTime": "2025-05-14T08:06:18.013Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Completed",
+            "UploadProgress": 100,
+            "ScanProgress": 100
+        }
+    },
+    {
+        "ScanId": "6822f4fb4d1786dfda2e8ddf",
+        "Repository": {
+            "ConnectionId": "82d3f709-3c30-47b8-8d12-fdb364984932",
+            "ConnectionName": "Dockerhub Testing",
+            "ProtocolType": "DockerHubSdk",
+            "RepositoryId": "RG9ja2VyaHViIFRlc3Rpbmcvc3RlbGlhbmdoZW9hY2UvZGVtb19kYXRhc2V0",
+            "RepositoryName": "steliangheoace/demo_dataset",
+            "RepositoryReference": "latest",
+            "RepositoryMetadata": "steliangheoace"
+        },
+        "ScanInformation": {
+            "Malware": false,
+            "Secret": false,
+            "VulnerabilityIssues": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "unknown": 0
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 0,
+                "Allowed": [],
+                "Blocked": []
+            },
+            "Workflow": {
+                "WorkflowId": "6822f26a7769cd1701b27080",
+                "WorkflowName": "Container",
+                "WorkflowType": "Container",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "",
+                            "Project": "",
+                            "ProjectId": "",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 114,
+                "VulnerablePackages": 37
+            },
+            "ScannedOn": "2025-05-13T07:30:03.695Z",
+            "StopTime": "2025-05-13T07:41:03.014Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Completed",
+            "UploadProgress": 0,
+            "ScanProgress": 0
+        }
+    },
+    {
+        "ScanId": "6822f4bf4d1786dfda2e8ddb",
+        "Repository": {
+            "ConnectionId": "e7dc5fe6-b78b-49f8-8ab5-ffc6f61a7628",
+            "ConnectionName": "AzureARC Testing",
+            "ProtocolType": "AzureAcrSdk",
+            "RepositoryId": "QXp1cmVBUkMgVGVzdGluZy97IlJlZ2lzdHJ5IjoibWRzc2NSZWdpc3RyeSIsIkltYWdlTmFtZSI6ImRlbW8vZGVtb19kYXRhc2V0In0=",
+            "RepositoryName": "demo/demo_dataset",
+            "RepositoryReference": "latest",
+            "RepositoryMetadata": null
+        },
+        "ScanInformation": {
+            "Malware": true,
+            "Secret": true,
+            "VulnerabilityIssues": {
+                "critical": 9,
+                "high": 26,
+                "medium": 27,
+                "low": 2,
+                "unknown": 0
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 2,
+                "Allowed": [
+                    {
+                        "Id": "Zlib"
+                    },
+                    {
+                        "Id": "BSD-3-Clause"
+                    },
+                    {
+                        "Id": "MIT"
+                    },
+                    {
+                        "Id": "BSD-1-Clause"
+                    },
+                    {
+                        "Id": "AFL-2.1"
+                    },
+                    {
+                        "Id": "ISC"
+                    },
+                    {
+                        "Id": "BSD-2-Clause"
+                    },
+                    {
+                        "Id": "Apache-2.0"
+                    },
+                    {
+                        "Id": "LGPL-2.0-or-later"
+                    },
+                    {
+                        "Id": "CC-BY-3.0"
+                    }
+                ],
+                "Blocked": [
+                    {
+                        "Id": "GPL-2.0-only"
+                    },
+                    {
+                        "Id": "GPL-2.0-or-later"
+                    }
+                ]
+            },
+            "Workflow": {
+                "WorkflowId": "6822f26a7769cd1701b27080",
+                "WorkflowName": "Container",
+                "WorkflowType": "Container",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "",
+                            "Project": "",
+                            "ProjectId": "",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 114,
+                "VulnerablePackages": 37
+            },
+            "ScannedOn": "2025-05-13T07:29:03.55Z",
+            "StopTime": "2025-05-13T07:35:38.016Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Completed",
+            "UploadProgress": 100,
+            "ScanProgress": 100
+        }
+    },
+    {
+        "ScanId": "6822f4924d1786dfda2e8dd7",
+        "Repository": {
+            "ConnectionId": "e382943e-4803-4101-9755-9beced6dbf13",
+            "ConnectionName": "JFrog Container Testing",
+            "ProtocolType": "JFrogContainerSdk",
+            "RepositoryId": "SkZyb2cgQ29udGFpbmVyIFRlc3RpbmcveyJDb25uZWN0aW9uIjoiZGVtby1kb2NrZXIiLCJJbWFnZU5hbWUiOiJkZW1vLWRvY2tlcmh1Yi1idWctaW1hZ2UifQ==",
+            "RepositoryName": "demo-dockerhub-bug-image",
+            "RepositoryReference": "latest",
+            "RepositoryMetadata": null
+        },
+        "ScanInformation": {
+            "Malware": false,
+            "Secret": false,
+            "VulnerabilityIssues": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "unknown": 4
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 2,
+                "Allowed": [
+                    {
+                        "Id": "Apache-2.0"
+                    },
+                    {
+                        "Id": "BSD-2-Clause"
+                    },
+                    {
+                        "Id": "MIT"
+                    },
+                    {
+                        "Id": "MPL-2.0"
+                    },
+                    {
+                        "Id": "Zlib"
+                    }
+                ],
+                "Blocked": [
+                    {
+                        "Id": "GPL-2.0-or-later"
+                    },
+                    {
+                        "Id": "GPL-2.0-only"
+                    }
+                ]
+            },
+            "Workflow": {
+                "WorkflowId": "6822f26a7769cd1701b27080",
+                "WorkflowName": "Container",
+                "WorkflowType": "Container",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "",
+                            "Project": "",
+                            "ProjectId": "",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 14,
+                "VulnerablePackages": 4
+            },
+            "ScannedOn": "2025-05-13T07:28:18.348Z",
+            "StopTime": "2025-05-13T07:30:03.016Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Completed",
+            "UploadProgress": 100,
+            "ScanProgress": 100
+        }
+    },
+    {
+        "ScanId": "6822f47b4d1786dfda2e8dd5",
+        "Repository": {
+            "ConnectionId": "2f20505c-297e-4bdf-b0b9-38332cfeaa86",
+            "ConnectionName": "JFrog Binary Testing",
+            "ProtocolType": "JFrogBinarySdk",
+            "RepositoryId": "SkZyb2cgQmluYXJ5IFRlc3RpbmcvZGVtb19ib3dlcg==",
+            "RepositoryName": "demo_bower",
+            "RepositoryReference": "N/A",
+            "RepositoryMetadata": "Bower"
+        },
+        "ScanInformation": {
+            "Malware": true,
+            "Secret": true,
+            "VulnerabilityIssues": {
+                "critical": 83,
+                "high": 216,
+                "medium": 168,
+                "low": 20,
+                "unknown": 0
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 0,
+                "Allowed": [
+                    {
+                        "Id": "MIT"
+                    },
+                    {
+                        "Id": "BSD-3-Clause"
+                    },
+                    {
+                        "Id": "ISC"
+                    },
+                    {
+                        "Id": "BSD-2-Clause"
+                    },
+                    {
+                        "Id": "Apache-2.0"
+                    },
+                    {
+                        "Id": "BSD-1-Clause"
+                    },
+                    {
+                        "Id": "AFL-2.1"
+                    },
+                    {
+                        "Id": "Unlicense"
+                    },
+                    {
+                        "Id": "Zlib"
+                    },
+                    {
+                        "Id": "CC0-1.0"
+                    },
+                    {
+                        "Id": "WTFPL"
+                    },
+                    {
+                        "Id": "MPL-2.0"
+                    },
+                    {
+                        "Id": "LGPL-2.1-or-later"
+                    },
+                    {
+                        "Id": "PSF-2.0"
+                    }
+                ],
+                "Blocked": []
+            },
+            "Workflow": {
+                "WorkflowId": "6822f2ee7769cd1701b27081",
+                "WorkflowName": "Binary",
+                "WorkflowType": "Binary",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "",
+                            "Project": "",
+                            "ProjectId": "",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 0,
+                "VulnerablePackages": 0
+            },
+            "ScannedOn": "2025-05-13T07:27:55.807Z",
+            "StopTime": "2025-05-13T07:37:08.014Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Completed",
+            "UploadProgress": 100,
+            "ScanProgress": 100
+        }
+    },
+    {
+        "ScanId": "6822f41b4d1786dfda2e8dd1",
+        "Repository": {
+            "ConnectionId": "82d3f709-3c30-47b8-8d12-fdb364984932",
+            "ConnectionName": "Dockerhub Testing",
+            "ProtocolType": "DockerHubSdk",
+            "RepositoryId": "RG9ja2VyaHViIFRlc3Rpbmcvc3RlbGlhbmdoZW9hY2UvZGVtb19kYXRhc2V0",
+            "RepositoryName": "steliangheoace/demo_dataset",
+            "RepositoryReference": "v2",
+            "RepositoryMetadata": "steliangheoace"
+        },
+        "ScanInformation": {
+            "Malware": true,
+            "Secret": true,
+            "VulnerabilityIssues": {
+                "critical": 9,
+                "high": 26,
+                "medium": 27,
+                "low": 2,
+                "unknown": 0
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 2,
+                "Allowed": [
+                    {
+                        "Id": "Zlib"
+                    },
+                    {
+                        "Id": "BSD-3-Clause"
+                    },
+                    {
+                        "Id": "MIT"
+                    },
+                    {
+                        "Id": "BSD-1-Clause"
+                    },
+                    {
+                        "Id": "AFL-2.1"
+                    },
+                    {
+                        "Id": "ISC"
+                    },
+                    {
+                        "Id": "BSD-2-Clause"
+                    },
+                    {
+                        "Id": "Apache-2.0"
+                    },
+                    {
+                        "Id": "LGPL-2.0-or-later"
+                    },
+                    {
+                        "Id": "CC-BY-3.0"
+                    }
+                ],
+                "Blocked": [
+                    {
+                        "Id": "GPL-2.0-only"
+                    },
+                    {
+                        "Id": "GPL-2.0-or-later"
+                    }
+                ]
+            },
+            "Workflow": {
+                "WorkflowId": "6822f26a7769cd1701b27080",
+                "WorkflowName": "Container",
+                "WorkflowType": "Container",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "",
+                            "Project": "",
+                            "ProjectId": "",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 114,
+                "VulnerablePackages": 37
+            },
+            "ScannedOn": "2025-05-13T07:26:19.766Z",
+            "StopTime": "2025-05-13T07:29:03.015Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Completed",
+            "UploadProgress": 100,
+            "ScanProgress": 100
+        }
+    },
+    {
+        "ScanId": "6822f3ff4d1786dfda2e8dcf",
+        "Repository": {
+            "ConnectionId": "d15a5b21-0cf9-4618-8867-94b95e8c3dc0",
+            "ConnectionName": "Amazon ERC Testing",
+            "ProtocolType": "AmazonEcrSdk",
+            "RepositoryId": "QW1hem9uIEVSQyBUZXN0aW5nL2Fybjphd3M6ZWNyOmV1LWNlbnRyYWwtMTozODA0ODgzMzk0MDg6cmVwb3NpdG9yeS9kZW1vX3Nib20tZGF0YXNldA==",
+            "RepositoryName": "demo_sbom-dataset",
+            "RepositoryReference": "latest",
+            "RepositoryMetadata": null
+        },
+        "ScanInformation": {
+            "Malware": false,
+            "Secret": false,
+            "VulnerabilityIssues": {
+                "critical": 9,
+                "high": 26,
+                "medium": 27,
+                "low": 2,
+                "unknown": 0
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 2,
+                "Allowed": [
+                    {
+                        "Id": "Zlib"
+                    },
+                    {
+                        "Id": "BSD-3-Clause"
+                    },
+                    {
+                        "Id": "MIT"
+                    },
+                    {
+                        "Id": "BSD-1-Clause"
+                    },
+                    {
+                        "Id": "AFL-2.1"
+                    },
+                    {
+                        "Id": "ISC"
+                    },
+                    {
+                        "Id": "BSD-2-Clause"
+                    },
+                    {
+                        "Id": "Apache-2.0"
+                    },
+                    {
+                        "Id": "LGPL-2.0-or-later"
+                    },
+                    {
+                        "Id": "CC-BY-3.0"
+                    }
+                ],
+                "Blocked": [
+                    {
+                        "Id": "GPL-2.0-only"
+                    },
+                    {
+                        "Id": "GPL-2.0-or-later"
+                    }
+                ]
+            },
+            "Workflow": {
+                "WorkflowId": "6822f26a7769cd1701b27080",
+                "WorkflowName": "Container",
+                "WorkflowType": "Container",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "",
+                            "Project": "",
+                            "ProjectId": "",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 119,
+                "VulnerablePackages": 37
+            },
+            "ScannedOn": "2025-05-13T07:25:51.185Z",
+            "StopTime": "2025-05-13T07:29:18.014Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Completed",
+            "UploadProgress": 100,
+            "ScanProgress": 100
+        }
+    },
+    {
+        "ScanId": "6822f3e94d1786dfda2e8dcd",
+        "Repository": {
+            "ConnectionId": "25db51c3-53b6-4d81-8743-d2d929a3b6e7",
+            "ConnectionName": "Gitlab Testing",
+            "ProtocolType": "GitLabSourceSdk",
+            "RepositoryId": "R2l0bGFiIFRlc3RpbmcvNjg5MzczNjI=",
+            "RepositoryName": "3_demo-dataset",
+            "RepositoryReference": "branch_10",
+            "RepositoryMetadata": null
+        },
+        "ScanInformation": {
+            "Malware": true,
+            "Secret": true,
+            "VulnerabilityIssues": {
+                "critical": 38,
+                "high": 75,
+                "medium": 64,
+                "low": 6,
+                "unknown": 0
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 0,
+                "Allowed": [
+                    {
+                        "Id": "MIT"
+                    },
+                    {
+                        "Id": "MPL-2.0"
+                    },
+                    {
+                        "Id": "Apache-2.0"
+                    },
+                    {
+                        "Id": "BSD-3-Clause"
+                    },
+                    {
+                        "Id": "LGPL-2.1-or-later"
+                    },
+                    {
+                        "Id": "BSD-1-Clause"
+                    },
+                    {
+                        "Id": "AFL-2.1"
+                    },
+                    {
+                        "Id": "ISC"
+                    },
+                    {
+                        "Id": "WTFPL"
+                    },
+                    {
+                        "Id": "BSD-2-Clause"
+                    },
+                    {
+                        "Id": "Unlicense"
+                    },
+                    {
+                        "Id": "PSF-2.0"
+                    }
+                ],
+                "Blocked": []
+            },
+            "Workflow": {
+                "WorkflowId": "6822f1e17769cd1701b2707f",
+                "WorkflowName": "SC",
+                "WorkflowType": "SourceCode",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "",
+                            "Project": "",
+                            "ProjectId": "",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 329,
+                "VulnerablePackages": 92
+            },
+            "ScannedOn": "2025-05-13T07:25:29.237Z",
+            "StopTime": "2025-05-13T07:26:03.016Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Completed",
+            "UploadProgress": 100,
+            "ScanProgress": 100
+        }
+    },
+    {
+        "ScanId": "6822f3524d1786dfda2e8dc5",
+        "Repository": {
+            "ConnectionId": "25db51c3-53b6-4d81-8743-d2d929a3b6e7",
+            "ConnectionName": "Gitlab Testing",
+            "ProtocolType": "GitLabSourceSdk",
+            "RepositoryId": "R2l0bGFiIFRlc3RpbmcvNjg5MzczNjI=",
+            "RepositoryName": "3_demo-dataset",
+            "RepositoryReference": "main",
+            "RepositoryMetadata": null
+        },
+        "ScanInformation": {
+            "Malware": true,
+            "Secret": false,
+            "VulnerabilityIssues": {
+                "critical": 38,
+                "high": 75,
+                "medium": 64,
+                "low": 6,
+                "unknown": 0
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 0,
+                "Allowed": [
+                    {
+                        "Id": "MIT"
+                    },
+                    {
+                        "Id": "MPL-2.0"
+                    },
+                    {
+                        "Id": "Apache-2.0"
+                    },
+                    {
+                        "Id": "BSD-3-Clause"
+                    },
+                    {
+                        "Id": "LGPL-2.1-or-later"
+                    },
+                    {
+                        "Id": "BSD-1-Clause"
+                    },
+                    {
+                        "Id": "AFL-2.1"
+                    },
+                    {
+                        "Id": "ISC"
+                    },
+                    {
+                        "Id": "WTFPL"
+                    },
+                    {
+                        "Id": "BSD-2-Clause"
+                    },
+                    {
+                        "Id": "Unlicense"
+                    },
+                    {
+                        "Id": "PSF-2.0"
+                    }
+                ],
+                "Blocked": []
+            },
+            "Workflow": {
+                "WorkflowId": "6822f1e17769cd1701b2707f",
+                "WorkflowName": "SC",
+                "WorkflowType": "SourceCode",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "",
+                            "Project": "",
+                            "ProjectId": "",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 328,
+                "VulnerablePackages": 92
+            },
+            "ScannedOn": "2025-05-13T07:22:58.257Z",
+            "StopTime": "2025-05-13T07:23:38.013Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Completed",
+            "UploadProgress": 100,
+            "ScanProgress": 100
+        }
+    },
+    {
+        "ScanId": "6822f3464d1786dfda2e8dc3",
+        "Repository": {
+            "ConnectionId": "92921c99-e26a-4d33-a51c-e2ecdc23e55f",
+            "ConnectionName": "Github Testing",
+            "ProtocolType": "GitHubSdk",
+            "RepositoryId": "R2l0aHViIFRlc3RpbmcvODE2NzUxMjU2",
+            "RepositoryName": "demo-dataset",
+            "RepositoryReference": "branch-test",
+            "RepositoryMetadata": null
+        },
+        "ScanInformation": {
+            "Malware": true,
+            "Secret": true,
+            "VulnerabilityIssues": {
+                "critical": 36,
+                "high": 69,
+                "medium": 57,
+                "low": 6,
+                "unknown": 0
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 0,
+                "Allowed": [
+                    {
+                        "Id": "MIT"
+                    },
+                    {
+                        "Id": "Apache-2.0"
+                    },
+                    {
+                        "Id": "ISC"
+                    },
+                    {
+                        "Id": "BSD-3-Clause"
+                    },
+                    {
+                        "Id": "MPL-2.0"
+                    },
+                    {
+                        "Id": "LGPL-2.1-or-later"
+                    },
+                    {
+                        "Id": "BSD-1-Clause"
+                    },
+                    {
+                        "Id": "AFL-2.1"
+                    },
+                    {
+                        "Id": "BSD-2-Clause"
+                    },
+                    {
+                        "Id": "Unlicense"
+                    },
+                    {
+                        "Id": "PSF-2.0"
+                    },
+                    {
+                        "Id": "WTFPL"
+                    }
+                ],
+                "Blocked": []
+            },
+            "Workflow": {
+                "WorkflowId": "6822f1e17769cd1701b2707f",
+                "WorkflowName": "SC",
+                "WorkflowType": "SourceCode",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "",
+                            "Project": "",
+                            "ProjectId": "",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 329,
+                "VulnerablePackages": 92
+            },
+            "ScannedOn": "2025-05-13T07:22:46.556Z",
+            "StopTime": "2025-05-13T07:23:03.018Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Completed",
+            "UploadProgress": 100,
+            "ScanProgress": 100
+        }
+    },
+    {
+        "ScanId": "6822f3374d1786dfda2e8dc1",
+        "Repository": {
+            "ConnectionId": "e7dc5fe6-b78b-49f8-8ab5-ffc6f61a7628",
+            "ConnectionName": "AzureARC Testing",
+            "ProtocolType": "AzureAcrSdk",
+            "RepositoryId": "QXp1cmVBUkMgVGVzdGluZy97IlJlZ2lzdHJ5IjoibWRzc2NSZWdpc3RyeSIsIkltYWdlTmFtZSI6ImRlbW8vZGVtb19kYXRhc2V0In0=",
+            "RepositoryName": "demo/demo_dataset",
+            "RepositoryReference": "v1",
+            "RepositoryMetadata": null
+        },
+        "ScanInformation": {
+            "Malware": true,
+            "Secret": true,
+            "VulnerabilityIssues": {
+                "critical": 9,
+                "high": 26,
+                "medium": 27,
+                "low": 2,
+                "unknown": 0
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 2,
+                "Allowed": [
+                    {
+                        "Id": "Zlib"
+                    },
+                    {
+                        "Id": "BSD-3-Clause"
+                    },
+                    {
+                        "Id": "MIT"
+                    },
+                    {
+                        "Id": "BSD-1-Clause"
+                    },
+                    {
+                        "Id": "AFL-2.1"
+                    },
+                    {
+                        "Id": "ISC"
+                    },
+                    {
+                        "Id": "BSD-2-Clause"
+                    },
+                    {
+                        "Id": "Apache-2.0"
+                    },
+                    {
+                        "Id": "LGPL-2.0-or-later"
+                    },
+                    {
+                        "Id": "CC-BY-3.0"
+                    }
+                ],
+                "Blocked": [
+                    {
+                        "Id": "GPL-2.0-only"
+                    },
+                    {
+                        "Id": "GPL-2.0-or-later"
+                    }
+                ]
+            },
+            "Workflow": {
+                "WorkflowId": "6822f26a7769cd1701b27080",
+                "WorkflowName": "Container",
+                "WorkflowType": "Container",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "",
+                            "Project": "",
+                            "ProjectId": "",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 114,
+                "VulnerablePackages": 37
+            },
+            "ScannedOn": "2025-05-13T07:22:31.532Z",
+            "StopTime": "2025-05-13T07:26:33.015Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Completed",
+            "UploadProgress": 100,
+            "ScanProgress": 100
+        }
+    },
+    {
+        "ScanId": "6822f32d4d1786dfda2e8dbf",
+        "Repository": {
+            "ConnectionId": "92921c99-e26a-4d33-a51c-e2ecdc23e55f",
+            "ConnectionName": "Github Testing",
+            "ProtocolType": "GitHubSdk",
+            "RepositoryId": "R2l0aHViIFRlc3RpbmcvODE2NzUxMjU2",
+            "RepositoryName": "demo-dataset",
+            "RepositoryReference": "main",
+            "RepositoryMetadata": null
+        },
+        "ScanInformation": {
+            "Malware": true,
+            "Secret": false,
+            "VulnerabilityIssues": {
+                "critical": 12,
+                "high": 33,
+                "medium": 36,
+                "low": 3,
+                "unknown": 0
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 0,
+                "Allowed": [
+                    {
+                        "Id": "MIT"
+                    },
+                    {
+                        "Id": "MPL-2.0"
+                    },
+                    {
+                        "Id": "Apache-2.0"
+                    },
+                    {
+                        "Id": "BSD-3-Clause"
+                    },
+                    {
+                        "Id": "LGPL-2.1-or-later"
+                    },
+                    {
+                        "Id": "ISC"
+                    }
+                ],
+                "Blocked": []
+            },
+            "Workflow": {
+                "WorkflowId": "6822f1e17769cd1701b2707f",
+                "WorkflowName": "SC",
+                "WorkflowType": "SourceCode",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "",
+                            "Project": "",
+                            "ProjectId": "",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 150,
+                "VulnerablePackages": 38
+            },
+            "ScannedOn": "2025-05-13T07:22:21.062Z",
+            "StopTime": "2025-05-13T07:22:33.016Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Completed",
+            "UploadProgress": 100,
+            "ScanProgress": 100
+        }
+    },
+    {
+        "ScanId": "6822f3134d1786dfda2e8dbd",
+        "Repository": {
+            "ConnectionId": "92921c99-e26a-4d33-a51c-e2ecdc23e55f",
+            "ConnectionName": "Github Testing",
+            "ProtocolType": "GitHubSdk",
+            "RepositoryId": "R2l0aHViIFRlc3RpbmcvODE2NzUxMjU2",
+            "RepositoryName": "demo-dataset",
+            "RepositoryReference": "branch-test",
+            "RepositoryMetadata": null
+        },
+        "ScanInformation": {
+            "Malware": true,
+            "Secret": true,
+            "VulnerabilityIssues": {
+                "critical": 36,
+                "high": 69,
+                "medium": 57,
+                "low": 6,
+                "unknown": 0
+            },
+            "Licenses": {
+                "BlockedLicensesCount": 0,
+                "Allowed": [
+                    {
+                        "Id": "MIT"
+                    },
+                    {
+                        "Id": "MPL-2.0"
+                    },
+                    {
+                        "Id": "Apache-2.0"
+                    },
+                    {
+                        "Id": "BSD-3-Clause"
+                    },
+                    {
+                        "Id": "LGPL-2.1-or-later"
+                    },
+                    {
+                        "Id": "BSD-1-Clause"
+                    },
+                    {
+                        "Id": "AFL-2.1"
+                    },
+                    {
+                        "Id": "ISC"
+                    },
+                    {
+                        "Id": "BSD-2-Clause"
+                    },
+                    {
+                        "Id": "Unlicense"
+                    },
+                    {
+                        "Id": "PSF-2.0"
+                    },
+                    {
+                        "Id": "WTFPL"
+                    }
+                ],
+                "Blocked": []
+            },
+            "Workflow": {
+                "WorkflowId": "6822f1e17769cd1701b2707f",
+                "WorkflowName": "SC",
+                "WorkflowType": "SourceCode",
+                "WorkflowIsDeleted": false,
+                "Remediations": [
+                    {
+                        "IsEnabled": false,
+                        "Type": "EmailRemediation",
+                        "Config": []
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "SoftDeleteRemediation",
+                        "Config": {
+                            "Malware": false,
+                            "Secret": false,
+                            "CommitMessage": "MetaDefender Software Supply Chain - Soft Delete Remediation"
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "JiraRemediation",
+                        "Config": {
+                            "JiraId": "",
+                            "Project": "",
+                            "ProjectId": "",
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true
+                        }
+                    },
+                    {
+                        "IsEnabled": false,
+                        "Type": "PackageDeleteRemediation",
+                        "Config": {
+                            "Malware": true,
+                            "Secret": true,
+                            "Vulnerabilities": true,
+                            "IsCritical": true,
+                            "IsHigh": true,
+                            "IsMedium": true,
+                            "IsLow": true,
+                            "IsUnknown": false
+                        }
+                    }
+                ]
+            },
+            "Package": {
+                "TotalPackages": 329,
+                "VulnerablePackages": 92
+            },
+            "ScannedOn": "2025-05-13T07:21:55.749Z",
+            "StopTime": "2025-05-13T07:22:13.06Z",
+            "TriggerEvent": "OnDemand",
+            "Errors": []
+        },
+        "ScanStatus": {
+            "ScanningState": "Completed",
+            "UploadProgress": 100,
+            "ScanProgress": 100
+        }
+    }
+]
